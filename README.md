@@ -86,15 +86,3 @@ What happens:
 - **Registers** – Seed registers differently by editing `reg.txt`.
 - **Simulation length** – Change `cycle_count` inside `tb_SingleCycle.v` if
   your program requires more cycles.
-
-## Extending the Project 🚀
-- Add hazard detection/forwarding units to explore deeper pipeline behaviour.
-- Increase memory sizes or split instruction/data memories if you want separate
-  buses.
-- Port the divider to handle signed division or add multiply instructions.
-- Replace `$display` tracing with waveform probes if targeting FPGA synthesis.
-
-## Responsible Usage 📚
-This project is intended for educational labs and hobby study. If you reuse it
-in coursework, cite the original CYCU materials and respect your institution’s
-academic policies.
